@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VERSHKA — Fashion Forward</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-logo">VERSHKA</div>
+    <div class="preloader-bar"><span></span></div>
+  </div>
+
+  <!-- CURSOR -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-left">
+      <button class="nav-icon" id="menu-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-logo">VERSHKA</div>
+    <div class="nav-right">
+      <a href="#" class="nav-link">Search</a>
+      <a href="#" class="nav-link">0</a>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobile-menu">
+    <button id="close-menu">✕</button>
+    <ul>
+      <li><a href="#hero">HOME</a></li>
+      <li><a href="#categories">WOMEN</a></li>
+      <li><a href="#categories">MEN</a></li>
+      <li><a href="#new-arrivals">NEW IN</a></li>
+      <li><a href="#sale">SALE</a></li>
+    </ul>
+    <div class="menu-footer">
+      <p>Free shipping over Rp 500.000</p>
+    </div>
+  </div>
+  <div id="menu-overlay"></div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-slide active" data-index="0">
+      <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1509631179647-0177331693ae?w=1600&q=80')"></div>
+      <div class="hero-content">
+        <p class="hero-tag">NEW COLLECTION 2025</p>
+        <h1 class="hero-title">DRESS<br/><em>THE BOLD</em></h1>
+        <p class="hero-sub">Koleksi terbaru hadir untuk mereka yang berani tampil beda.</p>
+        <a href="#new-arrivals" class="btn-primary">SHOP NOW</a>
+      </div>
+    </div>
+
+    <div class="hero-slide" data-index="1">
+      <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1600&q=80')"></div>
+      <div class="hero-content">
+        <p class="hero-tag">EXCLUSIVE DROP</p>
+        <h1 class="hero-title">STREET<br/><em>CULTURE</em></h1>
+        <p class="hero-sub">Urban aesthetics yang terinspirasi dari jalanan dunia.</p>
+        <a href="#categories" class="btn-primary">EXPLORE</a>
+      </div>
+    </div>
+
+    <div class="hero-slide" data-index="2">
+      <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1600&q=80')"></div>
+      <div class="hero-content">
+        <p class="hero-tag">WOMEN'S EDIT</p>
+        <h1 class="hero-title">DEFINE<br/><em>YOUR SELF</em></h1>
+        <p class="hero-sub">Mode sebagai ekspresi dirimu yang paling jujur.</p>
+        <a href="#categories" class="btn-primary">VIEW COLLECTION</a>
+      </div>
+    </div>
+
+    <div class="hero-nav">
+      <button class="hero-dot active" data-dot="0"></button>
+      <button class="hero-dot" data-dot="1"></button>
+      <button class="hero-dot" data-dot="2"></button>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE TICKER -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>NEW ARRIVALS</span><span>✦</span>
+      <span>FREE SHIPPING</span><span>✦</span>
+      <span>SUMMER 2025</span><span>✦</span>
+      <span>LIMITED DROPS</span><span>✦</span>
+      <span>NEW ARRIVALS</span><span>✦</span>
+      <span>FREE SHIPPING</span><span>✦</span>
+      <span>SUMMER 2025</span><span>✦</span>
+      <span>LIMITED DROPS</span><span>✦</span>
+      <span>NEW ARRIVALS</span><span>✦</span>
+      <span>FREE SHIPPING</span><span>✦</span>
+      <span>SUMMER 2025</span><span>✦</span>
+      <span>LIMITED DROPS</span><span>✦</span>
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <section id="categories">
+    <div class="section-header">
+      <p class="section-tag">SHOP BY</p>
+      <h2 class="section-title">CATEGORY</h2>
+    </div>
+    <div class="categories-grid">
+      <div class="cat-card cat-large">
+        <div class="cat-img" style="background-image: url('https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80')"></div>
+        <div class="cat-info">
+          <h3>WOMEN</h3>
+          <a href="#" class="cat-link">Shop Now →</a>
+        </div>
+      </div>
+      <div class="cat-card">
+        <div class="cat-img" style="background-image: url('https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=800&q=80')"></div>
+        <div class="cat-info">
+          <h3>MEN</h3>
+          <a href="#" class="cat-link">Shop Now →</a>
+        </div>
+      </div>
+      <div class="cat-card">
+        <div class="cat-img" style="background-image: url('https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=800&q=80')"></div>
+        <div class="cat-info">
+          <h3>ACCESSORIES</h3>
+          <a href="#" class="cat-link">Shop Now →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW ARRIVALS -->
+  <section id="new-arrivals">
+    <div class="section-header">
+      <p class="section-tag">JUST DROPPED</p>
+      <h2 class="section-title">NEW ARRIVALS</h2>
+    </div>
+    <div class="products-grid">
+
+      <div class="product-card" data-category="women">
+        <div class="product-img-wrap">
+          <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&q=80')"></div>
+          <div class="product-actions">
+            <button class="btn-wishlist" title="Wishlist">♡</button>
+            <button class="btn-quickview" data-name="Floral Wrap Dress" data-price="Rp 459.000">QUICK VIEW</button>
+          </div>
+          <span class="product-badge">NEW</span>
+        </div>
+        <div class="product-info">
+          <p class="product-cat">WOMEN</p>
+          <h4 class="product-name">Floral Wrap Dress</h4>
+          <p class="product-price">Rp 459.000</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="men">
+        <div class="product-img-wrap">
+          <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80')"></div>
+          <div class="product-actions">
+            <button class="btn-wishlist" title="Wishlist">♡</button>
+            <button class="btn-quickview" data-name="Oversized Cargo Jacket" data-price="Rp 699.000">QUICK VIEW</button>
+          </div>
+          <span class="product-badge sale-badge">SALE</span>
+        </div>
+        <div class="product-info">
+          <p class="product-cat">MEN</p>
+          <h4 class="product-name">Oversized Cargo Jacket</h4>
+          <p class="product-price">Rp 699.000 <s>Rp 899.000</s></p>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="women">
+        <div class="product-img-wrap">
+          <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1554412933-514a83d2f3cc?w=600&q=80')"></div>
+          <div class="product-actions">
+            <button class="btn-wishlist" title="Wishlist">♡</button>
+            <button class="btn-quickview" data-name="Ribbed Crop Top" data-price="Rp 229.000">QUICK VIEW</button>
+          </div>
+          <span class="product-badge">NEW</span>
+        </div>
+        <div class="product-info">
+          <p class="product-cat">WOMEN</p>
+          <h4 class="product-name">Ribbed Crop Top</h4>
+          <p class="product-price">Rp 229.000</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="men">
+        <div class="product-img-wrap">
+          <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&q=80')"></div>
+          <div class="product-actions">
+            <button class="btn-wishlist" title="Wishlist">♡</button>
+            <button class="btn-quickview" data-name="Slim Fit Chinos" data-price="Rp 389.000">QUICK VIEW</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <p class="product-cat">MEN</p>
+          <h4 class="product-name">Slim Fit Chinos</h4>
+          <p class="product-price">Rp 389.000</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="section-cta">
+      <a href="#" class="btn-outline">VIEW ALL PRODUCTS</a>
+    </div>
+  </section>
+
+  <!-- FULL-WIDTH PROMO BANNER -->
+  <section id="promo-banner">
+    <div class="promo-bg" style="background-image: url('https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1600&q=80')"></div>
+    <div class="promo-content">
+      <p class="promo-tag">LIMITED TIME</p>
+      <h2 class="promo-title">UP TO<br/>50% OFF</h2>
+      <p class="promo-desc">Dapatkan diskon besar untuk koleksi pilihan. Jangan sampai kehabisan.</p>
+      <a href="#sale" class="btn-primary btn-light">SHOP THE SALE</a>
+    </div>
+  </section>
+
+  <!-- EDITORIAL LOOKBOOK -->
+  <section id="lookbook">
+    <div class="section-header">
+      <p class="section-tag">EDITORIAL</p>
+      <h2 class="section-title">THE LOOKBOOK</h2>
+    </div>
+    <div class="lookbook-grid">
+      <div class="look-item look-tall">
+        <div class="look-img" style="background-image: url('https://images.unsplash.com/photo-1509631179647-0177331693ae?w=700&q=80')"></div>
+        <div class="look-label">LOOK 01</div>
+      </div>
+      <div class="look-item">
+        <div class="look-img" style="background-image: url('https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=700&q=80')"></div>
+        <div class="look-label">LOOK 02</div>
+      </div>
+      <div class="look-item">
+        <div class="look-img" style="background-image: url('https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=700&q=80')"></div>
+        <div class="look-label">LOOK 03</div>
+      </div>
+      <div class="look-item look-wide">
+        <div class="look-img" style="background-image: url('https://images.unsplash.com/photo-1526178613552-2b45c6c302f0?w=900&q=80')"></div>
+        <div class="look-label">LOOK 04</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SALE SECTION -->
+  <section id="sale">
+    <div class="sale-inner">
+      <div class="sale-text">
+        <p class="section-tag">DON'T MISS OUT</p>
+        <h2 class="section-title">SALE PICKS</h2>
+        <p>Koleksi terpilih dengan harga terbaik. Stok terbatas, segera dapatkan!</p>
+        <a href="#" class="btn-primary">SEE ALL SALE</a>
+      </div>
+      <div class="sale-products">
+        <div class="sale-card">
+          <div class="sale-img" style="background-image: url('https://images.unsplash.com/photo-1583744946564-b52ac1c389c8?w=500&q=80')"></div>
+          <div class="sale-info">
+            <p>Denim Shorts</p>
+            <span class="sale-price">Rp 199.000 <s>Rp 349.000</s></span>
+          </div>
+        </div>
+        <div class="sale-card">
+          <div class="sale-img" style="background-image: url('https://images.unsplash.com/photo-1564859228273-274232fdb516?w=500&q=80')"></div>
+          <div class="sale-info">
+            <p>Linen Blazer</p>
+            <span class="sale-price">Rp 549.000 <s>Rp 799.000</s></span>
+          </div>
+        </div>
+        <div class="sale-card">
+          <div class="sale-img" style="background-image: url('https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=500&q=80')"></div>
+          <div class="sale-info">
+            <p>Platform Sneakers</p>
+            <span class="sale-price">Rp 479.000 <s>Rp 699.000</s></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter">
+    <div class="newsletter-inner">
+      <p class="section-tag">JOIN US</p>
+      <h2>STAY IN THE LOOP</h2>
+      <p>Daftar dan dapatkan akses eksklusif ke koleksi terbaru, penawaran spesial, dan inspirasi gaya tiap minggu.</p>
+      <form class="newsletter-form" id="nl-form">
+        <input type="email" placeholder="Masukkan email kamu..." required />
+        <button type="submit">SUBSCRIBE</button>
+      </form>
+      <p class="nl-note">Dengan mendaftar, kamu menyetujui kebijakan privasi kami.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">VERSHKA</div>
+        <p>Fashion untuk generasi berani.<br/>Temukan gaya, ekspresikan dirimu.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TT</a>
+          <a href="#" aria-label="Pinterest">PT</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>SHOP</h5>
+        <ul>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Sale</a></li>
+          <li><a href="#">New Arrivals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>HELP</h5>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>ABOUT</h5>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 VERSHKA. Semua hak dilindungi.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Cookie Settings</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- QUICK VIEW MODAL -->
+  <div id="quick-modal" class="modal">
+    <div class="modal-overlay"></div>
+    <div class="modal-box">
+      <button class="modal-close">✕</button>
+      <div class="modal-content">
+        <div class="modal-img-wrap">
+          <div class="modal-img"></div>
+        </div>
+        <div class="modal-details">
+          <p class="modal-cat">VERSHKA</p>
+          <h3 class="modal-name"></h3>
+          <p class="modal-price"></p>
+          <div class="modal-sizes">
+            <p>PILIH UKURAN</p>
+            <div class="size-options">
+              <button class="size-btn">XS</button>
+              <button class="size-btn">S</button>
+              <button class="size-btn active">M</button>
+              <button class="size-btn">L</button>
+              <button class="size-btn">XL</button>
+            </div>
+          </div>
+          <button class="btn-primary btn-full">ADD TO CART</button>
+          <button class="btn-outline btn-full">ADD TO WISHLIST</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
